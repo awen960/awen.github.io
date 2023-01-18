@@ -4,8 +4,8 @@
 
 <head><meta name="generator" content="Hexo 3.9.0">
     <meta charset="utf-8">
-    <meta name="keywords" content="hexo,搭建个人博客, 阿文小屋 vue node axios promise js es6 阿文小屋">
-    <meta name="description" content="hexo 搭建个人博客">
+    <meta name="keywords" content="解决跨域">
+    <meta name="description" content="解决跨域">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <meta name="renderer" content="webkit|ie-stand|ie-comp">
@@ -13,7 +13,7 @@
     <meta name="format-detection" content="telephone=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <title>hexo,搭建个人博客 | 阿文小屋</title>
+    <title>解决跨域 | 阿文小屋</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/medias/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.min.css">
@@ -279,7 +279,7 @@
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">hexo,搭建个人博客</h1>
+                    <h1 class="description center-align post-title">解决跨域</h1>
                 </div>
             </div>
         </div>
@@ -396,8 +396,8 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/hexo/">
-                                <span class="chip bg-color">hexo</span>
+                            <a href="/tags/前端-跨域/">
+                                <span class="chip bg-color">前端 跨域</span>
                             </a>
                         
                     </div>
@@ -408,8 +408,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/hexo/" class="post-category">
-                                hexo
+                            <a href="/categories/前端/" class="post-category">
+                                前端
                             </a>
                         
                     </div>
@@ -421,7 +421,7 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-03-06
+                    2023-01-18
                 </div>
                 
 
@@ -430,14 +430,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    72
+                    747
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    1 分
+                    3 分
                 </div>
                 
 				
@@ -448,10 +448,60 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <h3 id="本文概要"><a href="#本文概要" class="headerlink" title="本文概要"></a>本文概要</h3><ul>
-<li>hexo 使用，及怎么去改主题的模板</li>
-</ul>
-<h2 id="Hexo-介绍"><a href="#Hexo-介绍" class="headerlink" title="Hexo 介绍"></a>Hexo 介绍</h2><script>
+                <h3 id="1-为什么会有跨域这个问题？"><a href="#1-为什么会有跨域这个问题？" class="headerlink" title="1.为什么会有跨域这个问题？"></a>1.为什么会有跨域这个问题？</h3><blockquote>
+<p>原因是浏览器为了安全，而采用的同源策略（Same origin policy）</p>
+</blockquote>
+<h3 id="2-什么是同源策略？"><a href="#2-什么是同源策略？" class="headerlink" title="2.什么是同源策略？"></a>2.什么是同源策略？</h3><pre><code>1. 同源策略是由Netscape提出的一个著名的安全策略，现在所有支持JavaScript 的浏览器都会使用这个策略。
+2. Web是构建在同源策略基础之上的，浏览器只是针对同源策略的一种实现。
+3. 所谓同源是指：协议，域名（IP），端口必须要完全相同
+   即：协议、域名（IP）、端口都相同，才能算是在同一个域里。</code></pre><p>备注：规则举例如下(假设已有网站地址为：<a href="http://study.cn" target="_blank" rel="noopener">http://study.cn</a>)<br><img src="https://s2.ax1x.com/2019/01/26/knAIit.png" alt="Alt text"></p>
+<h3 id="3-没有同源策略的危险场景："><a href="#3-没有同源策略的危险场景：" class="headerlink" title="3.没有同源策略的危险场景："></a>3.没有同源策略的危险场景：</h3><p>危险场景：</p>
+<blockquote>
+<p>有一天你刚睡醒，收到一封邮件，说是你的银行账号有风险，赶紧点进<a href="http://www.yinghang.com改密码。你着急的赶紧点进去，还是熟悉的银行登录界面，你果断输入你的账号密码，登录进去看看钱有没有少了，睡眼朦胧的你没看清楚，平时访问的银行网站是www.yinhang.com，而现在访问的是www.yinghang.com，随后你来了一条短信，钱没了，这个钓鱼网站做了什么呢？大概是如下思路：" target="_blank" rel="noopener">www.yinghang.com改密码。你着急的赶紧点进去，还是熟悉的银行登录界面，你果断输入你的账号密码，登录进去看看钱有没有少了，睡眼朦胧的你没看清楚，平时访问的银行网站是www.yinhang.com，而现在访问的是www.yinghang.com，随后你来了一条短信，钱没了，这个钓鱼网站做了什么呢？大概是如下思路：</a></p>
+</blockquote>
+<pre><code>&lt;iframe id="baidu" src="https://www.baidu.com"&gt;&lt;/iframe&gt;
+
+&lt;script type="text/javascript"&gt;
+  const iframe = window.frames['baidu']
+  const inputNode = iframe.document.getElementById('输入敏感信息的input的id')
+  console.log(inputNode.value)
+&lt;/script&gt;</code></pre><h3 id="3-非同源受到哪些限制？"><a href="#3-非同源受到哪些限制？" class="headerlink" title="3.非同源受到哪些限制？"></a>3.非同源受到哪些限制？</h3><pre><code>1. Cookie不能读取；
+2. DOM无法获得；
+3. Ajax请求不能发送</code></pre><h3 id="4-如何在开发中解决跨域问题："><a href="#4-如何在开发中解决跨域问题：" class="headerlink" title="4.如何在开发中解决跨域问题："></a>4.如何在开发中解决跨域问题：</h3><p><strong>1.JSONP解决发送请求跨域问题：</strong></p>
+<blockquote>
+<p>要明确的是：JSONP不是一种技术，而是程序员“智慧的结晶”（利用了标签请求资源不受同源策略限制的特点）<br>JSONP需要前后端人员互相配合。</p>
+</blockquote>
+<p>前端页面写法：</p>
+<pre><code>    &lt;body&gt;
+      &lt;button id="btn"&gt;按钮&lt;/button&gt;
+      &lt;script type="text/javascript"&gt;
+        var btn = document.getElementById('btn');
+        btn.onclick = function () {
+          //1. 创建一个script标签
+          var script = document.createElement('script');
+          //2. 设置回调函数
+          window.getData = function (data) {
+            console.log(data);//拿到数据
+          }
+          //3. 设置script标签src属性，填写跨域请求的地址
+          script.src = 'http://localhost:3000/jsonp?callback=getData';
+          //4. 将script标签添加到body中生效
+          document.body.appendChild(script);
+          //5.不影响整体DOM结构，删除script标签
+          document.body.removeChild(script);
+        }
+      &lt;/script&gt;
+    &lt;/body&gt;</code></pre><p>后端写法：</p>
+<pre><code>app.get('/jsonp', (req, res) =&gt; {
+  //解构赋值获取请求参数
+  const {callback} = req.query
+  //去数据库查找对应数据
+  const data = [{name: 'tom', age: 18}, {name: 'jerry', age: 20}];
+  res.send(callback + '(' + JSON.stringify(data) + ')');
+})</code></pre><p><strong>2.后台配置cors解决跨域</strong></p>
+<pre><code>以Node为例：
+res.set('Access-Control-Allow-Origin', 'http://localhost:63342');</code></pre><p><strong>3.使用代理服务器</strong></p>
+<pre><code>例如：nginx等</code></pre><script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
             if (!el.dataset.src) { return; }
@@ -494,7 +544,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://blog.agoniawen.top/2020/03/06/hexo-da-jian-ge-ren-bo-ke/">https://blog.agoniawen.top/2020/03/06/hexo-da-jian-ge-ren-bo-ke/</a>
+                    <a href="https://blog.agoniawen.top/2023/01/18/jie-jue-kua-yu/">https://blog.agoniawen.top/2023/01/18/jie-jue-kua-yu/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -532,8 +582,8 @@
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/hexo/">
-                                    <span class="chip bg-color">hexo</span>
+                                <a href="/tags/前端-跨域/">
+                                    <span class="chip bg-color">前端 跨域</span>
                                 </a>
                             
                         </div>
@@ -985,9 +1035,10 @@
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
                 <a href="/2023/01/18/jie-jue-kua-yu/">
                     <div class="card-image">
@@ -1005,9 +1056,9 @@
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2023-01-18
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2023-01-18
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1020,6 +1071,7 @@
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1035,7 +1087,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2020/03/06/hexo-da-jian-ge-ren-bo-ke/">
@@ -1069,7 +1121,6 @@
                         </span>
                     </div>
                 </div>
-
                 
                 <div class="card-action article-tags">
                     

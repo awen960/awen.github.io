@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.agoniawen.top/"/>
-  <updated>2023-01-18T07:13:05.242Z</updated>
+  <updated>2023-01-18T07:27:11.043Z</updated>
   <id>https://blog.agoniawen.top/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>解决跨域</title>
+    <link href="https://blog.agoniawen.top/2023/01/18/jie-jue-kua-yu/"/>
+    <id>https://blog.agoniawen.top/2023/01/18/jie-jue-kua-yu/</id>
+    <published>2023-01-18T07:15:45.000Z</published>
+    <updated>2023-01-18T07:27:11.043Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1-为什么会有跨域这个问题？&quot;&gt;&lt;a href=&quot;#1-为什么会有跨域这个问题？&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="前端" scheme="https://blog.agoniawen.top/categories/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="前端 跨域" scheme="https://blog.agoniawen.top/tags/%E5%89%8D%E7%AB%AF-%E8%B7%A8%E5%9F%9F/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo,搭建个人博客</title>
