@@ -58,35 +58,4 @@
     
   </entry>
   
-  <entry>
-    <title>npm,看这篇就够了</title>
-    <link href="https://blog.agoniawen.top/2020/02/29/npm-kan-zhe-pian-jiu-gou-liao/"/>
-    <id>https://blog.agoniawen.top/2020/02/29/npm-kan-zhe-pian-jiu-gou-liao/</id>
-    <published>2020-02-29T13:12:27.000Z</published>
-    <updated>2023-01-18T03:44:39.553Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最近在研究  &lt;code&gt;npm&lt;/code&gt; 组件发布，碰到一些相关问题，算是整理一下。&lt;/p&gt;
-&lt;h3 id=&quot;涉及内容&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="npm" scheme="https://blog.agoniawen.top/categories/npm/"/>
-    
-      <category term="前端" scheme="https://blog.agoniawen.top/categories/npm/%E5%89%8D%E7%AB%AF/"/>
-    
-    
-      <category term="npm" scheme="https://blog.agoniawen.top/tags/npm/"/>
-    
-      <category term="前端" scheme="https://blog.agoniawen.top/tags/%E5%89%8D%E7%AB%AF/"/>
-    
-  </entry>
-  
 </feed>
