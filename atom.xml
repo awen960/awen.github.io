@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.agoniawen.top/"/>
-  <updated>2023-01-18T07:27:11.043Z</updated>
+  <updated>2023-01-18T09:57:11.586Z</updated>
   <id>https://blog.agoniawen.top/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>git总结</title>
+    <link href="https://blog.agoniawen.top/2023/01/18/git-zong-jie/"/>
+    <id>https://blog.agoniawen.top/2023/01/18/git-zong-jie/</id>
+    <published>2023-01-18T09:32:59.000Z</published>
+    <updated>2023-01-18T09:57:11.586Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;h2 id=&quot;git的使用&quot;&gt;&lt;a href=&quot;#git的使用&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="git 前端" scheme="https://blog.agoniawen.top/tags/git-%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+  <entry>
     <title>解决跨域</title>
     <link href="https://blog.agoniawen.top/2023/01/18/jie-jue-kua-yu/"/>
     <id>https://blog.agoniawen.top/2023/01/18/jie-jue-kua-yu/</id>
     <published>2023-01-18T07:15:45.000Z</published>
-    <updated>2023-01-18T07:27:11.043Z</updated>
+    <updated>2023-01-18T09:57:38.015Z</updated>
     
     <summary type="html">
     
@@ -39,35 +63,6 @@
     
     
       <category term="前端 跨域" scheme="https://blog.agoniawen.top/tags/%E5%89%8D%E7%AB%AF-%E8%B7%A8%E5%9F%9F/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>hexo,搭建个人博客</title>
-    <link href="https://blog.agoniawen.top/2020/03/06/hexo-da-jian-ge-ren-bo-ke/"/>
-    <id>https://blog.agoniawen.top/2020/03/06/hexo-da-jian-ge-ren-bo-ke/</id>
-    <published>2020-03-06T13:28:57.000Z</published>
-    <updated>2023-01-18T07:13:05.242Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;本文概要&quot;&gt;&lt;a href=&quot;#本文概要&quot; class=&quot;headerlink&quot; title=&quot;本文概要&quot;&gt;&lt;/a&gt;本文概要&lt;/h3&gt;&lt;ul&gt;
-&lt;li&gt;hexo 使用，及怎么去改主题的模板&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&quot;Hexo-介绍&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-      <category term="hexo" scheme="https://blog.agoniawen.top/categories/hexo/"/>
-    
-    
-      <category term="hexo" scheme="https://blog.agoniawen.top/tags/hexo/"/>
     
   </entry>
   
