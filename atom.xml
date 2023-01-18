@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.agoniawen.top/"/>
-  <updated>2023-01-18T03:44:39.553Z</updated>
+  <updated>2023-01-18T07:13:05.242Z</updated>
   <id>https://blog.agoniawen.top/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://blog.agoniawen.top/2020/03/06/hexo-da-jian-ge-ren-bo-ke/"/>
     <id>https://blog.agoniawen.top/2020/03/06/hexo-da-jian-ge-ren-bo-ke/</id>
     <published>2020-03-06T13:28:57.000Z</published>
-    <updated>2023-01-18T03:44:39.553Z</updated>
+    <updated>2023-01-18T07:13:05.242Z</updated>
     
     <summary type="html">
     
@@ -29,7 +29,10 @@
       
         
         
-          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;2020 - 2 月底鬼使神差的给我的域名 &lt;code&gt;mflyyou.cn&lt;/code&gt; 续费三年，2024 - 4
+          &lt;h3 id=&quot;本文概要&quot;&gt;&lt;a href=&quot;#本文概要&quot; class=&quot;headerlink&quot; title=&quot;本文概要&quot;&gt;&lt;/a&gt;本文概要&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;hexo 使用，及怎么去改主题的模板&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;Hexo-介绍&quot;&gt;&lt;a
         
       
     
@@ -37,24 +40,8 @@
     
       <category term="hexo" scheme="https://blog.agoniawen.top/categories/hexo/"/>
     
-      <category term="cdn" scheme="https://blog.agoniawen.top/categories/hexo/cdn/"/>
-    
-      <category term="oss" scheme="https://blog.agoniawen.top/categories/hexo/cdn/oss/"/>
-    
-      <category term="nginx" scheme="https://blog.agoniawen.top/categories/hexo/cdn/oss/nginx/"/>
-    
-      <category term="shell" scheme="https://blog.agoniawen.top/categories/hexo/cdn/oss/nginx/shell/"/>
-    
     
       <category term="hexo" scheme="https://blog.agoniawen.top/tags/hexo/"/>
-    
-      <category term="nginx" scheme="https://blog.agoniawen.top/tags/nginx/"/>
-    
-      <category term="cdn" scheme="https://blog.agoniawen.top/tags/cdn/"/>
-    
-      <category term="oss" scheme="https://blog.agoniawen.top/tags/oss/"/>
-    
-      <category term="shell" scheme="https://blog.agoniawen.top/tags/shell/"/>
     
   </entry>
   

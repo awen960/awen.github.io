@@ -8,20 +8,12 @@
       <link href="/2020/03/06/hexo-da-jian-ge-ren-bo-ke/"/>
       <url>/2020/03/06/hexo-da-jian-ge-ren-bo-ke/</url>
       
-        <content type="html"><![CDATA[<h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>2020 - 2 月底鬼使神差的给我的域名 <code>mflyyou.cn</code> 续费三年，2024 - 4 才到期，就琢磨搭建个人网站，Google 了 <code>hexo</code> 中一个自己比较喜欢的主题 <code>hexo-matery-modified</code> ,然后自己改了改其中的内容。</p><p>博客的具体效果请观摩 <a href="http://mflyyou.cn" target="_blank" rel="noopener">张攀钦的博客</a></p><h3 id="本文概要"><a href="#本文概要" class="headerlink" title="本文概要"></a>本文概要</h3><ul><li>hexo 使用，及怎么去改主题的模板</li><li>阿里云服务器，搭建 nginx ,配置 nginx 缓存</li><li>百度、谷歌 seo 优化，让你的网站可以被搜索到</li><li>阿里 oss 作为图片服务器</li><li>CDN 加速提高首屏渲染</li><li>shell 脚本一键部署到 nginx 目录下，将所需静态资源上传到 oss</li></ul><h2 id="Hexo-介绍"><a href="#Hexo-介绍" class="headerlink" title="Hexo 介绍"></a>Hexo 介绍</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h3 id="本文概要"><a href="#本文概要" class="headerlink" title="本文概要"></a>本文概要</h3><ul><li>hexo 使用，及怎么去改主题的模板</li></ul><h2 id="Hexo-介绍"><a href="#Hexo-介绍" class="headerlink" title="Hexo 介绍"></a>Hexo 介绍</h2><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
           
           <category> hexo </category>
-          
-          <category> cdn </category>
-          
-          <category> oss </category>
-          
-          <category> nginx </category>
-          
-          <category> shell </category>
           
       </categories>
       
@@ -29,14 +21,6 @@
         <tags>
             
             <tag> hexo </tag>
-            
-            <tag> nginx </tag>
-            
-            <tag> cdn </tag>
-            
-            <tag> oss </tag>
-            
-            <tag> shell </tag>
             
         </tags>
       
