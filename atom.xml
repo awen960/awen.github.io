@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>阿文小屋</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://blog.agoniawen.top/"/>
+  <updated>2023-01-18T03:44:39.553Z</updated>
+  <id>https://blog.agoniawen.top/</id>
+  
+  <author>
+    <name>Awen</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo,搭建个人博客</title>
+    <link href="https://blog.agoniawen.top/2020/03/06/hexo-da-jian-ge-ren-bo-ke/"/>
+    <id>https://blog.agoniawen.top/2020/03/06/hexo-da-jian-ge-ren-bo-ke/</id>
+    <published>2020-03-06T13:28:57.000Z</published>
+    <updated>2023-01-18T03:44:39.553Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;2020 - 2 月底鬼使神差的给我的域名 &lt;code&gt;mflyyou.cn&lt;/code&gt; 续费三年，2024 - 4
+        
+      
+    
+    </summary>
+    
+      <category term="hexo" scheme="https://blog.agoniawen.top/categories/hexo/"/>
+    
+      <category term="cdn" scheme="https://blog.agoniawen.top/categories/hexo/cdn/"/>
+    
+      <category term="oss" scheme="https://blog.agoniawen.top/categories/hexo/cdn/oss/"/>
+    
+      <category term="nginx" scheme="https://blog.agoniawen.top/categories/hexo/cdn/oss/nginx/"/>
+    
+      <category term="shell" scheme="https://blog.agoniawen.top/categories/hexo/cdn/oss/nginx/shell/"/>
+    
+    
+      <category term="hexo" scheme="https://blog.agoniawen.top/tags/hexo/"/>
+    
+      <category term="nginx" scheme="https://blog.agoniawen.top/tags/nginx/"/>
+    
+      <category term="cdn" scheme="https://blog.agoniawen.top/tags/cdn/"/>
+    
+      <category term="oss" scheme="https://blog.agoniawen.top/tags/oss/"/>
+    
+      <category term="shell" scheme="https://blog.agoniawen.top/tags/shell/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>npm,看这篇就够了</title>
+    <link href="https://blog.agoniawen.top/2020/02/29/npm-kan-zhe-pian-jiu-gou-liao/"/>
+    <id>https://blog.agoniawen.top/2020/02/29/npm-kan-zhe-pian-jiu-gou-liao/</id>
+    <published>2020-02-29T13:12:27.000Z</published>
+    <updated>2023-01-18T03:44:39.553Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;最近在研究  &lt;code&gt;npm&lt;/code&gt; 组件发布，碰到一些相关问题，算是整理一下。&lt;/p&gt;
+&lt;h3 id=&quot;涉及内容&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="npm" scheme="https://blog.agoniawen.top/categories/npm/"/>
+    
+      <category term="前端" scheme="https://blog.agoniawen.top/categories/npm/%E5%89%8D%E7%AB%AF/"/>
+    
+    
+      <category term="npm" scheme="https://blog.agoniawen.top/tags/npm/"/>
+    
+      <category term="前端" scheme="https://blog.agoniawen.top/tags/%E5%89%8D%E7%AB%AF/"/>
+    
+  </entry>
+  
+</feed>
